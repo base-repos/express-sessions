@@ -1,6 +1,29 @@
 {
+ 
+  "name": "express-sessions",
+  "description": "A base repo with `express-session` already set up and connections to multiple databases available for you to fork. Connections to databases can be found in branches named `connect-to-*` with the database name at the end. eg. `connect-to-firebase`, `connect-to-redis`, etc. If you want a generic `express-session` implementation connected to no databases for development purposes, then the `master` branch is what you need.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/base-repos/express-sessions.git"
+  },
+  "keywords": [],
+  "author": "Qarun Qadir Bissoondial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/base-repos/express-sessions/issues"
+  },
+  "homepage": "https://github.com/base-repos/express-sessions#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-session": "^1.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
